@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* baseline typography. 1em = 16px */
+/* line-height is set at 22px = 1.375em */
+/* elements are set to multiples of 22px (1.375em) */
+
+body {
+    line-height: 1.375em;
+    background-color: #fff;
+    color: #555;
+    font-family: Georgia, Times, serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.75em;
+    margin-bottom: 2.75em;
+}
+
+body {
+/*
+    background-image: url(grid22.png);
+    background-repeat: repeat;
+    background-position: 0px -5px;
+*/
+}
+
+p {
+    margin-bottom: 1.375em;
+    text-renderig: optimizeLegibility;
+}
+strong {
+    color: #000;
+}
+
+em {
+    font-style: italic;
+}
+
+ul,ol {
+    margin-bottom: 1.375em;
+}
+
+ol li {
+    list-style: decimal;
+    list-style-position: outside;
+    margin-left: 1.5em;
+}
+
+ul li {
+    list-style: circle;
+    list-style-position: outside;
+    margin-left: 1.5em;
+}
+
+pre,tt {
+    font-family: courier,monospace;
+    font-size: 0.875em;
+}
+pre {
+    margin-bottom: 1.571428em;
+}
+
+a {
+    text-decoration: none;
+    color: #36c;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+h1, h2, h3, h4, h5 { 
+    font-family: 'Lucida Grande',Verdana,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+}
+
+h1 {
+    /*
+    font-size: 2em;
+    line-height: 2.0625em;
+    color: #e33;
+    */
+    margin-bottom: 2.75em;
+    margin-left: -8%;
+    color: #e33;
+}
+
+h2 {
+    /*
+    font-size: 1.5625em;
+    line-height: 1.76em;
+    */
+    /*border-top: 1px solid #e8e8e8;*/
+    margin-top: 4.125em;
+    margin-bottom: 1.375em;
+    margin-left: -8%;
+    color: #e33;
+}
+
+
+h3 {
+    /*margin-bottom: 1.375em;*/
+}
+
+h4 {
+    font-family: Georgia, Times, serif;
+}
+
+small {
+    font-size: 0.8em;
+}
+
+div.clear {
+    clear: both;
+    height: 0px;
+}
+
+p.iconfont span {
+    font-family: 'AndroidIcons';
+    font-size: 2.75em;
+    line-height: 1.333;
+}
+
+p.iconfont span:hover {
+    color: #0099cc;
+}
+
+@font-face {
+    font-family: 'AndroidIcons';
+    src: url('https://raw.github.com/kbsriram/android-icon-font/master/AndroidIcons.ttf');
+}
+
+@media screen and (min-width: 52.5em) {
+    body {
+        width: 42em;
+    }
+}
